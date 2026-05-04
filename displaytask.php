@@ -4,9 +4,9 @@ session_start();
 
 	$user_id = $_SESSION['user_id'];
         $host = 'localhost';
-        $user = 'anaeem';
-        $passwd = 'CS389';
-        $database = 'anaeem';
+        $user = '------';
+        $passwd = '-------';
+        $database = '------';
 
         $connect = mysqli_connect($host, $user, $passwd, $database);
         $query = "select * from tasks where user_id = '$user_id'";
