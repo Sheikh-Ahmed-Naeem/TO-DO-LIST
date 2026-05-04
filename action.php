@@ -1,6 +1,6 @@
 <?php
 session_start();
-$connect = mysqli_connect('localhost', 'anaeem', 'CS389', 'anaeem');
+$connect = mysqli_connect('localhost', '-----', '------', '------');
 
 if (!isset($_SESSION['user_id'])) {
     header("Location: homepage.html");
